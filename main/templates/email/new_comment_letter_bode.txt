@@ -1,0 +1,7 @@
+Dear Bro {{user.username}}!
+
+Пришел новый коммент,прочти.
+
+{{host}}{%url 'main:profile_bb_detail' pk=comment.bb.pk %}
+
+Good bay!
